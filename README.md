@@ -50,4 +50,9 @@ magicbook build
 
 You'll find the HTML and PDF files in the folder `build`.
 
+## Acknowledgment
+
+I'd like to thank Ben Krause for being a great friend and helping me with this draft!
+
+
 ## Citation
