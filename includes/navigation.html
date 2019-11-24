@@ -1,0 +1,7 @@
+{% if navigation.prev %}
+<a id="prev-link" href="{{ navigation.prev.href }}">Previous: {{navigation.prev.label}}</a>
+{% endif %}
+
+{% if navigation.next %}
+<a id="next-link" href="{{ navigation.next.href }}">Next: {{navigation.next.label}}</a>
+{% endif %}

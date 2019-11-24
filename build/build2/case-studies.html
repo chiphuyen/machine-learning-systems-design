@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Machine learning systems design</title>
+    <script src="assets/scripts.js"></script>
+
+    <link rel="stylesheet" href="assets/html.css">
+
+  </head>
+  <body data-type="book">
+    <div class="container">
+      <section data-type="chapter" id="case-studies-bYrWS80"><h1>Case studies</h1>
+<p>To learn to design machine learning systems, it&apos;s helpful to read case studies to see how actual teams deal with different deployment requirements and constraints. Many companies, such as Airbnb, Lyft, Uber, Netflix, run excellent tech blogs where they share their experience using machine learning to improve their products and/or processes. If you&apos;re interested in a company, you should visit their tech blogs to see what they&apos;ve been working on -- it might come up during your interviews! Below are some of these great case studies.</p>
+<ol>
+<li>
+<p><a href="https://medium.com/airbnb-engineering/using-machine-learning-to-predict-value-of-homes-on-airbnb-9272d3d4739d">Using Machine Learning to Predict Value of Homes On Airbnb</a> (Robert Chang, Airbnb Engineering &amp; Data Science, 2017)</p>
+<p>In this detailed and well-written blog post, Chang described how Airbnb used machine learning to predict an important business metric: the value of homes on Airbnb. It walks you through the entire workflow: feature engineering, model selection, prototyping, moving prototypes to production. It&apos;s completed with lessons learned, tools used, and code snippets too.</p>
+</li>
+<li>
+<p><a href="https://medium.com/netflix-techblog/using-machine-learning-to-improve-streaming-quality-at-netflix-9651263ef09f">Using Machine Learning to Improve Streaming Quality at Netflix</a> (Chaitanya Ekanadham, Netflix Technology Blog, 2018)</p>
+<p>As of 2018, Netflix streams to over 117M members worldwide, half of those living outside the US. This blog post describes some of their technical challenges and how they use machine learning to overcome these challenges, including to predict the network quality, detect device anomaly, and allocate resources for predictive caching.</p>
+</li>
+<li>
+<p><a href="https://blog.acolyer.org/2019/10/07/150-successful-machine-learning-models/">150 Successful Machine Learning Models: 6 Lessons Learned at Booking.com</a> (Bernardi et al., KDD, 2019).</p>
+<p>As of 2019, Booking.com has around 150 machine learning models in production. These models solve a wide range of prediction (e.g. predicting users&apos; travel preferences and how many people they travel with) and optimization (e.g.optimizing the background images and reviews to show for each user). Adrian Colyer gave a good summary of the six lessons learned here:</p>
+<ul>
+<li>Machine learned models deliver strong business value.</li>
+<li>Model performance is not the same as business performance.</li>
+<li>Be clear about the problem you&apos;re trying to solve.</li>
+<li>Prediction serving latency matters.</li>
+<li>Get early feedback on model quality.</li>
+<li>Test the business impact of your models using randomized controlled trials.</li>
+</ul>
+</li>
+<li>
+<p><a href="https://medium.com/hackernoon/how-we-grew-from-0-to-4-million-women-on-our-fashion-app-with-a-vertical-machine-learning-approach-f8b7fc0a89d7">How we grew from 0 to 4 million women on our fashion app, with a vertical machine learning approach</a> (Gabriel Aldamiz, HackerNoon, 2018)</p>
+<p>To offer automated outfit advice, Chicisimo tried to qualify people&apos;s fashion taste using machine learning. Due to the ambiguous nature of the task, the biggest challenges are framing the problem and collecting the data for it, both challenges are addressed by the article. It also covers the problem that every consumer app struggles with: user retention.</p>
+</li>
+<li>
+<p><a href="https://medium.com/airbnb-engineering/machine-learning-powered-search-ranking-of-airbnb-experiences-110b4b1a0789">Machine Learning-Powered Search Ranking of Airbnb Experiences</a> (Mihajlo Grbovic, Airbnb Engineering &amp; Data Science, 2019)</p>
+<p>This article walks you step by step through a canonical example of the ranking and recommendation problem. Four main steps are system design, personalization, online scoring, and business aspect. The article explains which features to use, how to collect data and label it, why they chose Gradient Boosted Decision Tree, which testing metrics to use, what heuristics to take into account while ranking results, how to do A/B testing during deployment. Another wonderful thing about this post is that it also covers personalization to rank results differently for different users.</p>
+</li>
+<li>
+<p><a href="https://eng.lyft.com/from-shallow-to-deep-learning-in-fraud-9dafcbcef743">From shallow to deep learning in fraud</a> (Hao Yi Ong, Lyft Engineering, 2018)</p>
+<p>Fraud detection is one of the earliest use cases of machine learning in industry. This article explores the evolution of fraud detection algorithms used at Lyft. At first, an algorithm as simple as logistic regression with engineered features was enough to catch most fraud cases. Its simplicity allowed the team to understand the importance of different features. Later, when fraud techniques have become too sophisticated, more complex models are required. This article explores the tradeoff between complexity and interpretability, performance and ease of deployment.</p>
+</li>
+<li>
+<p><a href="https://tech.instacart.com/space-time-and-groceries-a315925acf3a">Space, Time and Groceries</a> (Jeremy Stanley, Tech at Instacart, 2017)</p>
+<p>Instacart uses machine learning to solve the task of path optimization: how to most efficiently assign tasks for multiple shoppers and find the optimal paths for them.  The article explains the entire process of system design, from framing the problem, collecting data, algorithm and metric selection, topped with tutorial for beautiful visualization.</p>
+</li>
+<li>
+<p><a href="https://eng.uber.com/uber-big-data-platform/">Uber&apos;s Big Data Platform: 100+ Petabytes with Minute Latency</a> (Reza Shiftehfar, Uber Engineering, 2018)</p>
+<p>With massive data comes massive engineering requirement. Relying heavily on data for decision making, &quot;from forecasting rider demand during high traffic events to identifying and addressing bottlenecks in our driver-partner sign-up process&quot;, Uber has collected &quot;over 100 petabytes of data that needs to be cleaned, stored, and served with minimum latency.&quot; This article focuses on the evolution of analytical data warehouse at Uber, from Vertica to Hadoop to their own Spark library Hudi, each with their limitations analyzed and addressed.</p>
+</li>
+<li>
+<p><a href="https://blogs.dropbox.com/tech/2017/04/creating-a-modern-ocr-pipeline-using-computer-vision-and-deep-learning/">Creating a Modern OCR Pipeline Using Computer Vision and Deep Learning</a> (Brad Neuberg, Dropbox Engineering, 2017)</p>
+<p>An application as simple as a document scanner has two distinct components: optical character recognition and word detector. Each requires their own production pipeline, and the end-to-end system requires additional steps for training and tuning. This article also goes into detail the team&apos;s effort to collect data, which includes building their own data annotation platform.</p>
+</li>
+<li>
+<p><a href="https://eng.uber.com/scaling-michelangelo/">Scaling Machine Learning at Uber with Michelangelo</a> (Jeremy Hermann and Mike Del Balso, Uber Engineering, 2019)</p>
+<p>Uber uses extensive machine learning in their production, and this article gives an impressive overview of their end-to-end workflow, where machine learning is being applied at Uber, and how their teams are organized.</p>
+</li>
+</ol>
+</section>
+<a id="prev-link" href="design-a-machine-learning-system.html">Previous: Design a machine learning system</a>
+
+<a id="next-link" href="exercises.html">Next: Exercises</a>
+    </div>
+  </body>
+</html>

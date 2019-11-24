@@ -1,0 +1,30 @@
+{
+  "title" : "Machine learning systems design",
+  "destination" : "build/:build",
+  "files" : [
+    "content/toc.html",
+    "content/research-vs-production.md",
+    "content/design-a-machine-learning-system.md",
+    "content/case-studies.md",
+    "content/exercises.md"
+  ],
+  "builds" : [
+    {
+      "format" : "pdf",
+      "layout" : "layouts/pdf.html",
+      "stylesheets" : {
+        "files" : ["stylesheets/pdf.scss"]
+      }
+    },
+    {
+      "format" : "html",
+      "layout" : "layouts/html.html",
+      "stylesheets" : {
+        "files" : ["stylesheets/html.scss"]
+      },
+      "javascripts" : {
+        "files" : ["javascripts/scripts.js"]
+      }
+    }
+  ]
+}

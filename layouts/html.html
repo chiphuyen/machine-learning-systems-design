@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>{{ config.title }}</title>
+    {{ javascripts }}
+    {{ stylesheets }}
+  </head>
+  <body data-type="book">
+    <div class="container">
+      {{ content }}
+      {% include navigation.html %}
+    </div>
+  </body>
+</html>

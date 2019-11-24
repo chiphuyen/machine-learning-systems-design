@@ -1,0 +1,9 @@
+@import 'shared';
+
+section[data-type="chapter"] {
+  page-break-after: always;
+}
+
+nav[data-type="toc"] a[href]::after {
+  content: " [Page " target-counter(attr(href), page) "]"
+}

@@ -1,0 +1,19 @@
+body {
+  font-family: "Helvetica", "Arial", sans-serif;
+  color: #333;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: font-path('Roboto-Bold.eot');
+  src: font-path('Roboto-Bold.eot?#iefix') format('embedded-opentype'),
+       font-path('Roboto-Bold.woff') format('woff'),
+       font-path('Roboto-Bold.ttf') format('truetype'),
+       font-path('Roboto-Bold.svg#robotobold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Roboto'
+}
