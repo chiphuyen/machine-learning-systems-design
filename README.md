@@ -42,13 +42,13 @@ git clone https://github.com/chiphuyen/machine-learning-systems-design.git
 cd machine-learning-systems-design
 ```
 
-After you've made changes to the content, you can build the booklet by the following steps:
+After you've made changes to the content in the `content` folder, you can build the booklet by the following steps:
 
 ```
 magicbook build
 ```
 
-You'll find the HTML and PDF files in the folder `build`.
+You'll find the generated HTML and PDF files in the folder `build`.
 
 ## Acknowledgment
 
