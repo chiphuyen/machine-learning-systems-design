@@ -47,3 +47,13 @@ To learn to design machine learning systems, it's helpful to read case studies t
 10. [Scaling Machine Learning at Uber with Michelangelo](https://eng.uber.com/scaling-michelangelo/) (Jeremy Hermann and Mike Del Balso, Uber Engineering, 2019)
 	
 	Uber uses extensive machine learning in their production, and this article gives an impressive overview of their end-to-end workflow, where machine learning is being applied at Uber, and how their teams are organized.
+	
+11. [Deep Learning for Recommender Systems](https://bit.ly/2XXLEDV) (Justin Basilico, Research/Engineering at Netflix, 2018)
+	
+	Recommendations generate over $1B yearly revenue for Netflix. The joy of spending few seconds to find something great to watch, directly impacts customer satisfaction.	
+	
+12. [Making Netflix Machine Learning Algorithms Reliable](https://bit.ly/2ONtXmp) (Justin Basilico, Research/Engineering at Netflix, 2017) 
+
+	Netflix develops a variety of machine learning algorithms (including regression, factorization, topic modeling, ensemble learning, neural networks, bandits, etc) to a variety of problems (personalized ranking, trending now, video similarities, search, top-n ranking, etc), to help members find content to watch and enjoy.
+
+
