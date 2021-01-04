@@ -1,5 +1,7 @@
 # Machine Learning Systems Design
 
+**Read this booklet [here](https://huyenchip.com/machine-learning-systems-design/toc.html).**
+
 This booklet covers four main steps of designing a machine learning system:
 
 1. Project setup
@@ -11,8 +13,6 @@ It comes with links to practical resources that explain each aspect in more deta
 
 At the end, the booklet contains 27 open-ended machine learning systems design questions that might come up in machine learning interviews. The answers for these questions will be published in the book **Machine Learning Interviews**. You can look at and contribute to community answers to these questions on GitHub [here](https://github.com/chiphuyen/machine-learning-systems-design/tree/master/answers). You can read more about the book and sign up for the book's mailing list [here](https://huyenchip.com/2019/07/21/machine-learning-interviews.html).
 
-## Read
-To read the booklet, you can clone the repository and find the [HTML](https://github.com/chiphuyen/machine-learning-systems-design/tree/master/build/build1/consolidated.html) and [PDF](https://github.com/chiphuyen/machine-learning-systems-design/tree/master/build/build1/consolidated.pdf) versions in the folder `build`.
 
 ## Contribute
 This is work-in-progress so any type of contribution is very much appreciated. Here are a few ways you can contribute:
