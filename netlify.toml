@@ -1,7 +1,0 @@
-[build]
-  publish = "build"
-  command = "npm -g install magicbook && magicbook build"
-
-[[redirects]]
-  from = "/"
-  to = "/build1/consolidated.html"
