@@ -32,7 +32,7 @@ brew install node
 Install `magicbook` with:
 
 ```
-npm install magicbook
+npm install -g magicbook
 ```
 
 Clone this repository:
