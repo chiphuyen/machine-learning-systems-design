@@ -2,6 +2,8 @@
 
 **Read this booklet [here](https://huyenchip.com/machine-learning-systems-design/toc.html).**
 
+>>This booklet was my initial attempt to write about machine learning systems design back in 2019. My understanding of the topic has gone through significant iterations since then. My book [Designing Machine Learning Systems](https://www.amazon.com/Designing-Machine-Learning-Systems-Production-Ready/dp/1098107969) (O'Reilly, June 2022) is much more comprehensive and up-to-date. [The new book's repo](https://github.com/chiphuyen/dmls-book) contains the full table of contents, chapter summaries, and random thoughts on MLOps tooling.
+
 This booklet covers four main steps of designing a machine learning system:
 
 1. Project setup
